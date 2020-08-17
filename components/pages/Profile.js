@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {  TextInput, Appbar, Button  } from 'react-native-paper';
-import {View, Text, Alert, AsyncStorage} from 'react-native'
+import {View, Text, Alert, AsyncStorage,ScrollView} from 'react-native'
 import {Card, Overlay, ListItem, CheckBox  } from 'react-native-elements'
 import { DrawerActions } from "react-navigation-drawer";
 import axios from 'axios'
@@ -294,7 +294,7 @@ export default class MyComponent extends React.Component {
   }
     return (
       <View style={{flex:1}}>
-        
+        <ScrollView>
       <Appbar.Header style={{backgroundColor: '#0C0D16'}}>
         <Appbar.BackAction
           onPress={() => this.props.navigation.goBack(null)}
@@ -539,7 +539,7 @@ export default class MyComponent extends React.Component {
           >
             Sign Out
           </Button> 
-          
+          </ScrollView>
       </View>
     );
   }

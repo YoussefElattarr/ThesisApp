@@ -115,7 +115,7 @@ export default class Signup extends Component {
         <SafeAreaView style={{ marginTop: "20%"}}>
             <View style={{marginLeft:38, marginRight:30}}>
             <View style={{marginLeft: 50, flexDirection: "row",alignItems: "center"}}>
-             <Icon name='person-add' size="45" />
+           
             <Text  style={{fontSize:40, color:"#000000", marginLeft:10}}>Sign Up</Text>
           </View>
           <TextInput
