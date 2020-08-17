@@ -128,7 +128,6 @@ export default class Login extends Component {
           
           <View style={{marginLeft: "30%",flexDirection: "row",alignItems: "center"}}>
           
-             <Icon name='person-outline' size="45" />
             <Text  style={{color:"#000000", fontSize:40}}>Login</Text>
           </View>
          
